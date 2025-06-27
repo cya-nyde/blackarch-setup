@@ -12,9 +12,9 @@ The official download links for the BlackArch ISOs can be found [here](https://b
 
 This guide will be broken down as follows:
 
-- [How to install Arch (with BlackArch Installer)](#install-arch)
-- [How to build Arch (intro)](#build-arch)
-- [How to install *my* preferred GUI (Hyprland)](#install-hyprland)
+- [How to install Arch (with BlackArch Installer)](/archInstall.md)
+- [How to build Arch (intro)](/archBuild.md)
+- [How to install *my* preferred GUI (Hyprland)](/hyprlandInstall.md)
 
 ## Disclaimers
 
