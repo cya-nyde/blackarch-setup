@@ -92,3 +92,16 @@ Your final partition table should look something like this:
 
 #### Disclaimer: There are many other ways to partition your drives; this is just the way I chose to partition mine, and is a good starting point when booting a UEFI system
 
+## 6) User/Timezone Setup
+
+- Once the base Arch packages install, you will be prompted for user setup
+- You **must** create a root account - use a strong password
+- It is strongly recommended for you to create a standard user so that you can build the habit of not doing everything with root permissions
+- Once you have created your users, you will be prompted to edit your timezone and select a mirror
+    - The mirror you choose only affects how fast the packages will be downloaded (choose a mirror close to you for best performance)
+
+At this point, you can choose to install X11 and the default window managers that come with BlackArch (GUI). If you are planning on installing a different desktop or using BlackArch as shell only, select no (n). If you are unsure, select yes (y).
+
+## 7) BlackArch Packages
+
+At this point, if you choose not to install any of the BlackArch packages, you essentially have a base Arch Linux installation. If you are looking to explore the more security-focused tools that come with BlackArch, feel free to install them. Otherwise, your installation of Arch/BlackArch is complete!
