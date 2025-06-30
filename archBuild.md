@@ -71,3 +71,21 @@ Assuming you are connected to ethernet/VM:
     - Most likely starts with e if it is an ethernet interface or eth0 if VM
 - `sudo ip link set <interface name> up` to enable the interface
 - `sudo dhcpcd <interface name>` to get an IP from your DHCP server
+
+Assuming you are connecting to a WiFi network:
+
+- `ip link` to find the name of the interface you want to use
+    - Often wlan0 or starts with w
+- `iwctl` then `station <interface name> connect <name of network>`
+- `ip link set <interface name> up`
+
+## Finalizing
+
+Your Arch install is now set up. You can install any desktop environment of your choice on top of it. Here are some examples of display manager/desktop environment combos:
+
+- [gnome](https://wiki.archlinux.org/title/GNOME) Desktop + [gdm](https://wiki.archlinux.org/title/GDM) Display manager | Best option for beginners. Very user-friendly UI, large Icons and app search, very mouse dependent, but polished.
+- [xfce](https://wiki.archlinux.org/title/Xfce) + [lightdm](https://wiki.archlinux.org/title/LightDM) | The most lightweight GUI stack in the list, simple but effective desktop environment with a display manager that specializes in being resource light.
+- [kde (plasma)](https://wiki.archlinux.org/title/KDE) + [sddm](https://wiki.archlinux.org/title/SDDM) | Highly featured but more resource intensive desktop environment. Ideal for baremetal installs/daily driver systems that need a comprehensive app suite with a great deal of customizability.
+- [hyprland] (https://wiki.archlinux.org/title/Hyprland) + [sddm](https://wiki.archlinux.org/title/SDDM) | Most customizable but difficult to set up desktop environment in the list. Similar to Arch in its modular nature, and works best with SDDM, but is also compatible with other display managers.
+
+Note: You can combine most of these display managers with most desktop environments, but these are some of the combinations I have tested personally.
