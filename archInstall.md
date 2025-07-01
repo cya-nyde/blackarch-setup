@@ -1,6 +1,8 @@
 Arch Install | Cya-nyde
 =======================
 
+We will be installing BlackArch/Arch using the Blackarch NetInstall ISO found on the official BlackArch site.
+
 ## Pre-Install
 
 - The BlackArch ISO can be downloaded [here](https://blackarch.org/downloads.html)

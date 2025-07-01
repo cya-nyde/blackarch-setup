@@ -1,18 +1,17 @@
 # blackarch-setup
 
-How to install BlackArch Linux in 2025
+How to install BlackArch Linux in 2025 (the lazy way)
 
 ## Intro
 
-After trying tons of distros, I found that Arch with Hyprland was the best blend of performance and aesthetic. As someone who does a lot of pentesting, BlackArch made the most sense to me out of all the Arch variations...except that the installers on [blackarch.org](blackarch.org) are all broken.
+After trying tons of distros, I found that Arch with Hyprland was the best blend of performance and aesthetic. As someone who does a lot of pentesting, BlackArch made the most sense to me out of all the Arch variations...except that the installers on [blackarch.org](blackarch.org) are all somewhat broken.
 
-As you probably know, the official BlackArch ISOs have not been updated since 2023. The recommended installation method is to first install Arch, then sync the BlackArch repositories from AUR. After going through this process (realistically for no reason other than for fun), I recommend that you install the BlackArch repository over Arch as a base if possible. If you are stubborn and want to use the BlackArch installer in its current state, and/or would like to see what that process currently looks like, you are in the right place. Just know that this is for educational purposes and there are better ways to do this.
+As you probably know, the official BlackArch ISOs have not been updated since 2023. The recommended installation method is to first install Arch, then sync the BlackArch repositories from AUR. If you're like me, you're lazy and also want the aesthetics of BlackArch, so you want to figure out a way to get the installers to work. After going through this process (realistically for no reason other than for fun), I still recommend that you install the BlackArch repository over Arch as a base if possible. If you are stubborn and want to use the BlackArch installer in its current state, and/or would like to see what that process currently looks like, you are in the right place. Just know that this is for educational purposes and there are better ways to do this.
 
 This guide will be broken down as follows:
 
 - [How to install Arch (with BlackArch Installer)](/archInstall.md)
-- [How to build Arch (intro)](/archBuild.md)
-- [How to install *my* preferred GUI (Hyprland)](/hyprlandInstall.md)
+- [How to build a basic functional Arch](/archBuild.md)
 
 ## Disclaimers
 
