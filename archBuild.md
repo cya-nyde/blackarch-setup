@@ -1,5 +1,5 @@
-Building Arch
-============
+Arch Build
+==========
 
 Now that your base system installed, it is time to build it out. Let's start with some tools and packages you'll need to complete your base setup.
 
